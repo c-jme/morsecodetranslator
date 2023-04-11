@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"> <!-- Google Font-->
   <link rel="stylesheet" href="./CSS/style.css">
+  <script type="module" src="./JS/script.js" defer></script>
   <title>Document</title>
 </head>
 <body>
@@ -15,18 +16,18 @@
   <main class="inputs">
     <section class="inputs__container">
       <label class="inputs__title">English</label>
-      <textarea class="inputs__text"cols="30" row="3" placeholder="Enter in your English text"></textarea>
+      <textarea id="engInput" class="inputs__text"cols="30" row="3" placeholder="Enter in your English text"></textarea>
       <div>
-        <button class="inputs__button">Translate</button>
-        <button class="inputs__button">Clear</button>
+        <button id="engButton" class="inputs__button">Translate</button>
+        <button id="clearButtonEng" class="inputs__button">Clear</button>
       </div>
     </section>
     <section class="inputs__container">
       <label class="inputs__title">Morse Code</label>
-      <textarea class="inputs__text" cols="30" row="3" placeholder="Enter in your Morse Code"></textarea>
+      <textarea id="morseInput" class="inputs__text" cols="30" row="3" placeholder="Enter in your Morse Code"></textarea>
       <div>
-        <button class="inputs__button">Translate</button>
-        <button class="inputs__button">Clear</button>
+        <button id="morseButton" class="inputs__button">Translate</button>
+        <button id="clearButtonMorse" class="inputs__button">Clear</button>
       </div>
     </section>
 

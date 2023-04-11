@@ -1,17 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Montserrat;
-  max-width: 100vw;
-  max-height: 100vh;
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-}
 .inputs__container {
   display: flex;
   flex-direction: column;
@@ -27,4 +13,26 @@ body {
   border-radius: 10px;
   width: 80%;
   height: 100px;
+}
+.inputs__button {
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  color: #424c55;
+  background-color: #F5EDF0;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
 }
